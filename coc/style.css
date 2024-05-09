@@ -1,0 +1,53 @@
+
+.change{
+ font-family: circular air, Sans-serif;
+ font-size: 1em;
+ font-weight: 500;                        
+} 
+.sideimage{
+    height: 90px;
+
+}
+.lets{
+    color: #000;
+    font-family: circular air, Sans-serif;
+    font-size: 2.5em;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+.head{
+    color: #000;
+    font-family: circular air, Sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.weight{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.race{
+    vertical-align: middle;
+    max-width: 60%;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+}
+@media(max-width: 768px){
+    .race{
+        max-width: 32%;
+    }
+}
+
+@media(max-width: 767px){
+    #boned{
+        width: 100%;
+    }
+}
+.bon{
+    border-radius: 0px;
+    padding: -1px;
+}
+.size{
+    width: 50%;
+margin-top: 20px;
+margin-bottom: 15px;}
